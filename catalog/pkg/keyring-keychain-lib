@@ -1,0 +1,3 @@
+#hash([name     . "keyring-keychain-lib"]
+      [source   . "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-lib#v0.10.0"]
+      [checksum . "b94d316071f10b14c32bf7398d45d849348e680d"])
