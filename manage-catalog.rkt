@@ -5,9 +5,11 @@
          racket/exn
          racket/file
          racket/pretty
-         racket/string)
+         racket/string
+         threading)
 
 (define-logger catalog)
+(define catalog-dir "catalog")
 
 (define (read-pkg-file filename)
   (define (fail e)
@@ -40,16 +42,23 @@
                        new-checksum)
      (hash-set pkg-hash 'checksum new-checksum)]))
 
+(define (add-package name url)
+  (~> (hash 'name name 'source url)
+      maybe-update-pkg-checksum
+      (write-pkg-file (build-path "catalog" "pkg" name))))
+
+(module* add-packages #f
+  (require racket/sequence)
+  (for ([name+url (in-slice 2 (current-command-line-arguments))])
+    (apply add-package name+url)))
+
 (module* refresh-pkgs #f
-  (require threading)
   (for ([pkg-filename (in-vector (current-command-line-arguments))])
     (~> (read-pkg-file pkg-filename)
         maybe-update-pkg-checksum
         (write-pkg-file pkg-filename))))
 
 (module* build-catalog #f
-  (define catalog-dir "catalog")
-
   (define packages
     (let* ([pkg-path (build-path catalog-dir "pkg")]
            [pkg-files (directory-list #:build? #t pkg-path)])
