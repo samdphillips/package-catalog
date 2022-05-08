@@ -1,0 +1,5 @@
+#hash((checksum . "a5732a1d429c8f2e271bffe8270a1eb3c63b57e0")
+      (name . "smalltalk-reader")
+      (source
+       .
+       "https://github.com/samdphillips/racket-smalltalk.git?path=smalltalk-reader"))
