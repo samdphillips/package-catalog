@@ -1,41 +1,21 @@
 <html>
   <head>
-    <title>Demo Racket Package Catalog</title>
+    <title>Preview Racket Package Catalog</title>
   </head>
   <body>
-    <h1>Demo Racket Package Catalog</h1>
+    <h1>Preview Racket Package Catalog</h1>
     <p>
-      This is an example showing how to use GitHub Pages to host a Racket
-      Package Catalog.
+      This package catalog contains pre-release versions of my published
+      packages and packages that I have not yet published into the main
+      <a href="https://pkgs.racket-lang.org">Racket Package Catalog</a>.
     </p>
     <h2>How to use this catalog</h2>
     <pre>
 $ raco pkg config --set catalogs \
-    https://samdphillips.github.io/pkg-catalog-demo/catalog/ \
-    https://download.racket-lang.org/releases/8.4/catalog/   \
-    https://pkgs.racket-lang.org                             \
+    https://samdphillips.github.io/package-catalog/catalog/ \
+    https://download.racket-lang.org/releases/$YOUR_RACKET_VERSION/catalog/   \
+    https://pkgs.racket-lang.org \
     https://planet-compats.racket-lang.org
-
-# Check the catalog contents.  This is using a URL that is pinned to the tag
-# v0.10.0.  The same package reference on pkgs.racket-lang.org is pointing to
-# the release branch.
-$ raco pkg catalog-show keyring
-Package name: keyring
- Source: https://github.com/samdphillips/racket-keyring.git?path=keyring#v0.10.0
- Checksum: b94d316071f10b14c32bf7398d45d849348e680d
     </pre>
-    <h2>Notes</h2>
-    <p>
-      These are things to keep in mind if you want to host your own catalog.
-      <ul>
-        <li><a href="https://github.com/samdphillips/pkg-catalog-demo">Here</a>
-        is the repo that you can see all of the files.
-        <li>In "Settings/Pages," pick a branch for the GitHub Pages source.</li>
-        <li>
-          GitHub Pages takes time to rebuild the site, so making changes to the
-          repo may take some time to show up on the website.
-        </li>
-      </ul>
-    </p>
   </body>
 </html>
