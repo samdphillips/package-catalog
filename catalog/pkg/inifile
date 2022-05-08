@@ -1,0 +1,3 @@
+#hash((checksum . "08e89eadb6e1bb0f660da8b34003b84dde5c6948")
+      (name . "inifile")
+      (source . "https://github.com/samdphillips/racket-inifile.git"))

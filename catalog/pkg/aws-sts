@@ -1,0 +1,3 @@
+#hash((checksum . "419a299655001bb4a07430169e0706e7b56e0185")
+      (name . "aws-sts")
+      (source . "https://github.com/samdphillips/racket-aws-sts.git"))
