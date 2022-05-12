@@ -52,7 +52,7 @@
   (for ([name+url (in-slice 2 (current-command-line-arguments))])
     (apply add-package name+url)))
 
-(module* refresh-pkgs #f
+(module* refresh-packages #f
   (for ([pkg-filename (in-vector (current-command-line-arguments))])
     (~> (read-pkg-file pkg-filename)
         maybe-update-pkg-checksum
