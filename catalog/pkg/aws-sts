@@ -1,3 +1,5 @@
-#hash((checksum . "419a299655001bb4a07430169e0706e7b56e0185")
+#hash((checksum . "3b0c53d28bf095560abcda87c62b4d111d68072a")
       (name . "aws-sts")
-      (source . "https://github.com/samdphillips/racket-aws-sts.git"))
+      (source
+       .
+       "https://github.com/samdphillips/racket-aws-sts.git?path=aws-sts"))
