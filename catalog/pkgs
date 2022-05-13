@@ -1,1 +1,1 @@
-("aws-credential-key-lib" "aws-credential-keyring-lib" "aws-credential-lib" "aws-sts" "inifile" "keyring" "keyring-get-pass-lib" "keyring-keychain-lib" "keyring-lib" "keyring-secret-service-lib" "smalltalk-parser" "smalltalk-reader")
+("aws-credential-key-lib" "aws-credential-keyring-lib" "aws-credential-lib" "aws-credential-sts-lib" "aws-sts" "inifile" "keyring" "keyring-get-pass-lib" "keyring-keychain-lib" "keyring-lib" "keyring-secret-service-lib" "smalltalk-parser" "smalltalk-reader")

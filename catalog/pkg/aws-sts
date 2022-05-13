@@ -1,4 +1,4 @@
-#hash((checksum . "3b0c53d28bf095560abcda87c62b4d111d68072a")
+#hash((checksum . "15d0055563f14fc2687a04f270f36f4558c5031c")
       (name . "aws-sts")
       (source
        .
