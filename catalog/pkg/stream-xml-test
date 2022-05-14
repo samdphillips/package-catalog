@@ -1,0 +1,5 @@
+#hash((checksum . "459528b2f35e56696db24976c87c35fe854669be")
+      (name . "stream-xml-test")
+      (source
+       .
+       "https://github.com/samdphillips/racket-stream-xml.git?path=stream-xml-test"))

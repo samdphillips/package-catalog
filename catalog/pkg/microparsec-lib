@@ -1,0 +1,5 @@
+#hash((checksum . "44e2aa78ebf3926d5fb16cc847ae0fa6ddf62e39")
+      (name . "microparsec-lib")
+      (source
+       .
+       "https://github.com/samdphillips/racket-microparsec.git?path=microparsec-lib"))

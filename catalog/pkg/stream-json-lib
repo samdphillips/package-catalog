@@ -1,0 +1,5 @@
+#hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
+      (name . "stream-json-lib")
+      (source
+       .
+       "https://github.com/samdphillips/racket-stream-json.git?path=stream-json-lib"))

@@ -1,0 +1,5 @@
+#hash((checksum . "cf3b785515cf413313ab9bd0294ebe4b852106b2")
+      (name . "rkshell-lib")
+      (source
+       .
+       "https://github.com/samdphillips/racket-rkshell.git?path=rkshell-lib"))

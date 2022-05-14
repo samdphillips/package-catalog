@@ -1,0 +1,3 @@
+#hash((checksum . "7700912ceb9cff4e8f685f7b38e387e8c4744f2e")
+      (name . "ruckus")
+      (source . "https://github.com/samdphillips/ruckus.git"))
