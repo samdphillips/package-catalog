@@ -13,3 +13,18 @@ raco pkg config --set catalogs \
     https://pkgs.racket-lang.org \
     https://planet-compats.racket-lang.org
 ```
+
+I use [manage-catalog.rkt](https://github.com/samdphillips/package-catalog/blob/main/manage-catalog.rkt) 
+to manage the package files.  It requires [`raco-run`](https://pkgs.racket-lang.org/package/raco-run) 
+and [`threading`](https://pkgs.racket-lang.org/package/threading) to be installed.
+
+```
+Add Packages
+./manage-catalog.rkt add-packages pkg-name1 url1 pkg-name2 url2 ...
+
+Refresh Package Hashes
+./manage-catalog.rkt refresh-packages catalog/pkg/*
+
+Rebuild catalog/pkgs and catalog/pkgs-all
+./manage-catalog.rkt build-catalog
+```
