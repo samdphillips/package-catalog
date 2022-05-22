@@ -1,0 +1,5 @@
+#hash((checksum . "ff8582ecb9468012329c89e47a7f084a179d47b4")
+      (name . "foo")
+      (source
+       .
+       "https://github.com/samdphillips/racket-token-bucket.git?path=token-bucket-lib"))
