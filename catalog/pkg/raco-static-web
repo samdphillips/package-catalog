@@ -1,3 +1,3 @@
-#hash((checksum . "df097e1475f1f6cb648f2d457e94a3dd2659542e")
+#hash((checksum . "436d03a671f35e78695edc3711127880174c83a1")
       (name . "raco-static-web")
       (source . "https://github.com/samdphillips/raco-static-web.git"))
