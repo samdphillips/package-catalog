@@ -19,8 +19,8 @@ jobs:
     - name: update catalog
       run: |
         chmod +x manage-catalog.rkt
-        ./manage-catalog refresh-packages catalog/pkg/*
-        ./manage-catalog build-catalog
+        ./manage-catalog.rkt refresh-packages catalog/pkg/*
+        ./manage-catalog.rkt build-catalog
     - name: make pull request
       uses: peter-evans/create-pull-request@v4
       with:
