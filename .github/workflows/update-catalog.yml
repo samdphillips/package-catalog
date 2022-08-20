@@ -24,6 +24,7 @@ jobs:
     - name: make pull request
       uses: peter-evans/create-pull-request@v4
       with:
+        token: ${{ secrets.PAT }}
         add-paths: catalog
         commit-message: Package catalog updates
         delete-branch: true
