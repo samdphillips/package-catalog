@@ -12,6 +12,8 @@ jobs:
       with:
         architecture: 'x64'
         distribution: 'full'
+        version: 'stable'
+        variant: 'CS'
     - name: install script dependencies
       run: raco pkg install --batch --auto raco-run threading-lib
     - name: update catalog
