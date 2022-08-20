@@ -1,0 +1,29 @@
+on:
+  schedule:
+  - cron: "*/15 * * * *"
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@master
+    - name: install Racket
+      uses: Bogdanp/setup-racket@v1.8.1
+      with:
+        architecture: 'x64'
+        distribution: 'full'
+    - name: install script dependencies
+      run: raco pkg install --batch --auto raco-run threading-lib
+    - name: update catalog
+      run: |
+        chmod +x manage-catalog.rkt
+        ./manage-catalog refresh-packages catalog/pkg/*
+        ./manage-catalog build-catalog
+    - name: make pull request
+      uses: peter-evans/create-pull-request@v4
+      with:
+        add-paths: catalog
+        commit-message: Package catalog updates
+        delete-branch: true
+        branch-suffix: timestamp
+        title: Package catalog updates
