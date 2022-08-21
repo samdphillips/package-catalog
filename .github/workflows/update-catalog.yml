@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: "*/15 * * * *"
+  - cron: "17 */3 * * *"
 jobs:
   update-catalog:
     runs-on: ubuntu-latest
