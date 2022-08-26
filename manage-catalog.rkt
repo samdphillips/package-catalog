@@ -11,6 +11,10 @@
 (define-logger catalog)
 (define catalog-dir "catalog")
 
+(define (pretty-write-to-file val path #:exists exists)
+  (with-output-to-file path #:exists exists
+    (λ () (pretty-write val))))
+
 (define (read-pkg-file filename)
   (define (fail e)
     (log-catalog-error "error reading ~a~%~a" filename (exn->string e))
@@ -19,10 +23,7 @@
     (file->value filename)))
 
 (define (write-pkg-file pkg-hash filename)
-  (with-output-to-file filename
-    #:exists 'replace
-    (lambda ()
-      (pretty-write pkg-hash))))
+  (pretty-write-to-file pkg-hash filename #:exists 'replace))
 
 (define (maybe-update-pkg-checksum pkg-hash)
   (define old-checksum
@@ -69,10 +70,10 @@
         (log-catalog-info "found package ~a" (hash-ref pkg-data 'name #f))
         pkg-data)))
 
-  (write-to-file #:exists 'replace
-                 packages (build-path catalog-dir "pkgs-all"))
-  (write-to-file #:exists 'replace
-                 (for/list ([pkg (in-list packages)])
-                   (hash-ref pkg 'name))
-                 (build-path catalog-dir "pkgs")))
+  (pretty-write-to-file #:exists 'replace
+                        packages (build-path catalog-dir "pkgs-all"))
+  (pretty-write-to-file #:exists 'replace
+                        (for/list ([pkg (in-list packages)])
+                          (hash-ref pkg 'name))
+                        (build-path catalog-dir "pkgs")))
 
