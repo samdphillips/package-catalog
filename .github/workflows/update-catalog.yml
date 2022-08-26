@@ -29,3 +29,4 @@ jobs:
         commit-message: Package catalog updates
         delete-branch: true
         title: Package catalog updates
+        assignees: samdphillips
