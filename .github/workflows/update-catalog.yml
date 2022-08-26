@@ -28,5 +28,4 @@ jobs:
         add-paths: catalog
         commit-message: Package catalog updates
         delete-branch: true
-        branch-suffix: timestamp
         title: Package catalog updates
