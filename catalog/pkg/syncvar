@@ -1,3 +1,3 @@
-#hash((checksum . "a307932dd0d2e0cd5a299244382cf8929b2a1cae")
+#hash((checksum . "3b21cce5da1f101e54835cc1ade0d6aff1a619cb")
       (name . "syncvar")
       (source . "https://github.com/samdphillips/racket-syncvar.git"))
