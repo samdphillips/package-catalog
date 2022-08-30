@@ -22,4 +22,5 @@
  "stream-json-test"
  "stream-xml-lib"
  "stream-xml-test"
+ "syncvar"
  "token-bucket-lib")
