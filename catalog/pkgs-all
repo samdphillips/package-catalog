@@ -59,7 +59,7 @@
  #hash((checksum . "a57165d1ba73436476cd9466b74dc1ff71d6b19a")
        (name . "raco-run")
        (source . "https://github.com/samdphillips/raco-run.git"))
- #hash((checksum . "436d03a671f35e78695edc3711127880174c83a1")
+ #hash((checksum . "47db5da603f84ca4efef4258a6884dfa228791cd")
        (name . "raco-static-web")
        (source . "https://github.com/samdphillips/raco-static-web.git"))
  #hash((checksum . "cf3b785515cf413313ab9bd0294ebe4b852106b2")
