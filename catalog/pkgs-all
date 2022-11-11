@@ -56,7 +56,7 @@
        (source
         .
         "https://github.com/samdphillips/racket-microparsec.git?path=microparsec-lib"))
- #hash((checksum . "a57165d1ba73436476cd9466b74dc1ff71d6b19a")
+ #hash((checksum . "0fb999b772fd23f794a493c94af754609d896332")
        (name . "raco-run")
        (source . "https://github.com/samdphillips/raco-run.git"))
  #hash((checksum . "47db5da603f84ca4efef4258a6884dfa228791cd")
