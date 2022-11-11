@@ -26,27 +26,27 @@
  #hash((checksum . "08e89eadb6e1bb0f660da8b34003b84dde5c6948")
        (name . "inifile")
        (source . "https://github.com/samdphillips/racket-inifile.git"))
- #hash((checksum . "7e1e3ff190e8d9eff49eb11c9b3d030bb9c2054d")
+ #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
        (name . "keyring")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring"))
- #hash((checksum . "7e1e3ff190e8d9eff49eb11c9b3d030bb9c2054d")
+ #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
        (name . "keyring-get-pass-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-get-pass-lib"))
- #hash((checksum . "7e1e3ff190e8d9eff49eb11c9b3d030bb9c2054d")
+ #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
        (name . "keyring-keychain-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-lib"))
- #hash((checksum . "7e1e3ff190e8d9eff49eb11c9b3d030bb9c2054d")
+ #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
        (name . "keyring-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-lib"))
- #hash((checksum . "7e1e3ff190e8d9eff49eb11c9b3d030bb9c2054d")
+ #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
        (name . "keyring-secret-service-lib")
        (source
         .
