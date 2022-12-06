@@ -1,0 +1,3 @@
+#hash((checksum . "075ba66e829d06dcaf9356a19410f7aa1cded62a")
+      (name . "sparklines")
+      (source . "https://github.com/samdphillips/racket-sparklines.git"))

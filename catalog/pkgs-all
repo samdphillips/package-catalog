@@ -80,6 +80,9 @@
        (source
         .
         "https://github.com/samdphillips/racket-smalltalk.git?path=smalltalk-reader"))
+ #hash((checksum . "075ba66e829d06dcaf9356a19410f7aa1cded62a")
+       (name . "sparklines")
+       (source . "https://github.com/samdphillips/racket-sparklines.git"))
  #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
        (name . "stream-json")
        (source

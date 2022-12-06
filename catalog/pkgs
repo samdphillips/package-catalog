@@ -16,6 +16,7 @@
  "ruckus"
  "smalltalk-parser"
  "smalltalk-reader"
+ "sparklines"
  "stream-json"
  "stream-json-doc"
  "stream-json-lib"
