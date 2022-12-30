@@ -1,3 +1,5 @@
-#hash((checksum . "d63e8d29fac7ef09f57a8f3c49b841931cfa189b")
+#hash((checksum . "b50075b6109502f4eb6f7cd608ad6dda5d1861e5")
       (name . "syncvar")
-      (source . "https://github.com/samdphillips/racket-syncvar.git"))
+      (source
+       .
+       "https://github.com/samdphillips/racket-syncvar.git?path=syncvar"))
