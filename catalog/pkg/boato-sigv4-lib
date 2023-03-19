@@ -1,0 +1,5 @@
+#hash((checksum . "583d09ebc070d773bd92231b169bddfdde40c80c")
+      (name . "boato-sigv4-lib")
+      (source
+       .
+       "https://github.com/samdphillips/boato.git?path=boato-sigv4-lib"))

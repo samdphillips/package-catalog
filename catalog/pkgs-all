@@ -23,6 +23,11 @@
        (source
         .
         "https://github.com/samdphillips/racket-aws-sts.git?path=aws-sts"))
+ #hash((checksum . "583d09ebc070d773bd92231b169bddfdde40c80c")
+       (name . "boato-sigv4-lib")
+       (source
+        .
+        "https://github.com/samdphillips/boato.git?path=boato-sigv4-lib"))
  #hash((checksum . "08e89eadb6e1bb0f660da8b34003b84dde5c6948")
        (name . "inifile")
        (source . "https://github.com/samdphillips/racket-inifile.git"))
