@@ -1,19 +1,19 @@
-(#hash((checksum . "7120fb58f790117ebb4ebf10def4f37d3492947f")
+(#hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
        (name . "aws-credential-key-lib")
        (source
         .
         "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-key-lib"))
- #hash((checksum . "7120fb58f790117ebb4ebf10def4f37d3492947f")
+ #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
        (name . "aws-credential-keyring-lib")
        (source
         .
         "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-keyring-lib"))
- #hash((checksum . "7120fb58f790117ebb4ebf10def4f37d3492947f")
+ #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
        (name . "aws-credential-lib")
        (source
         .
         "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-lib"))
- #hash((checksum . "7120fb58f790117ebb4ebf10def4f37d3492947f")
+ #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
        (name . "aws-credential-sts-lib")
        (source
         .
@@ -23,7 +23,7 @@
        (source
         .
         "https://github.com/samdphillips/racket-aws-sts.git?path=aws-sts"))
- #hash((checksum . "583d09ebc070d773bd92231b169bddfdde40c80c")
+ #hash((checksum . "9265d43a512af3de33cfd4eb57256210db8304a0")
        (name . "boato-sigv4-lib")
        (source
         .
@@ -64,7 +64,7 @@
  #hash((checksum . "0fb999b772fd23f794a493c94af754609d896332")
        (name . "raco-run")
        (source . "https://github.com/samdphillips/raco-run.git"))
- #hash((checksum . "1fe5f17ad13894531a6fd017a8a6d6d3e1650d24")
+ #hash((checksum . "1e93d3632b78fb7324d1edba953ab3b206faecd9")
        (name . "raco-static-web")
        (source . "https://github.com/samdphillips/raco-static-web.git"))
  #hash((checksum . "cf3b785515cf413313ab9bd0294ebe4b852106b2")
@@ -118,12 +118,12 @@
        (source
         .
         "https://github.com/samdphillips/racket-stream-xml.git?path=stream-xml-test"))
- #hash((checksum . "b50075b6109502f4eb6f7cd608ad6dda5d1861e5")
+ #hash((checksum . "504a7965d65b8c3ab06b28a791cd84e88f52f036")
        (name . "syncvar")
        (source
         .
         "https://github.com/samdphillips/racket-syncvar.git?path=syncvar"))
- #hash((checksum . "b50075b6109502f4eb6f7cd608ad6dda5d1861e5")
+ #hash((checksum . "504a7965d65b8c3ab06b28a791cd84e88f52f036")
        (name . "syncvar-lib")
        (source
         .
