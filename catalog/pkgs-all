@@ -118,12 +118,12 @@
        (source
         .
         "https://github.com/samdphillips/racket-stream-xml.git?path=stream-xml-test"))
- #hash((checksum . "e96c49879254f8a14fc216eb872a4e5ea0e980d7")
+ #hash((checksum . "b7ddf4b78b2f2ced31b775a38163ede8d7dd76c6")
        (name . "syncvar")
        (source
         .
         "https://github.com/samdphillips/racket-syncvar.git?path=syncvar"))
- #hash((checksum . "e96c49879254f8a14fc216eb872a4e5ea0e980d7")
+ #hash((checksum . "b7ddf4b78b2f2ced31b775a38163ede8d7dd76c6")
        (name . "syncvar-lib")
        (source
         .
