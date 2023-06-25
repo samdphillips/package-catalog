@@ -15,7 +15,7 @@ jobs:
         version: 'stable'
         variant: 'CS'
     - name: install script dependencies
-      run: raco pkg install --batch --auto raco-run threading-lib
+      run: raco pkg install --batch --auto "https://github.com/samdphillips/raco-run.git#main" threading-lib
     - name: update catalog
       run: |
         chmod +x manage-catalog.rkt
