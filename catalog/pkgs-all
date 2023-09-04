@@ -31,31 +31,46 @@
  #hash((checksum . "08e89eadb6e1bb0f660da8b34003b84dde5c6948")
        (name . "inifile")
        (source . "https://github.com/samdphillips/racket-inifile.git"))
- #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
+ #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
        (name . "keyring")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring"))
- #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
+ #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
        (name . "keyring-get-pass-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-get-pass-lib"))
- #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
+ #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
        (name . "keyring-keychain-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-lib"))
- #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
+ #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+       (name . "keyring-keychain-test")
+       (source
+        .
+        "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-test"))
+ #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
        (name . "keyring-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-lib"))
- #hash((checksum . "97c77e9f57b6c334e3ee512953c70c5261e0041f")
+ #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
        (name . "keyring-secret-service-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-secret-service-lib"))
+ #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+       (name . "keyring-secretservice-test")
+       (source
+        .
+        "https://github.com/samdphillips/racket-keyring.git?path=keyring-secretservice-test"))
+ #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+       (name . "keyring-test")
+       (source
+        .
+        "https://github.com/samdphillips/racket-keyring.git?path=keyring-test"))
  #hash((checksum . "aaafa0628a4e4328d4e151855550dde27a6cecc6")
        (name . "microparsec-lib")
        (source
