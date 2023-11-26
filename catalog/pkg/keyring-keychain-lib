@@ -1,4 +1,4 @@
-#hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+#hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
       (name . "keyring-keychain-lib")
       (source
        .
