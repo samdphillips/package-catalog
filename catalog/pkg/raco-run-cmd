@@ -1,0 +1,5 @@
+#hash((checksum . "97eb3745293c014dec9b5633f3d67b0a3e218655")
+      (name . "raco-run-cmd")
+      (source
+       .
+       "https://github.com/samdphillips/raco-run.git?path=raco-run-cmd"))

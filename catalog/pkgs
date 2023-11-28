@@ -15,6 +15,7 @@
  "keyring-test"
  "microparsec-lib"
  "raco-run"
+ "raco-run-cmd"
  "raco-static-web"
  "rkshell-lib"
  "ruckus"

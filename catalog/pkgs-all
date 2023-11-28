@@ -31,42 +31,42 @@
  #hash((checksum . "08e89eadb6e1bb0f660da8b34003b84dde5c6948")
        (name . "inifile")
        (source . "https://github.com/samdphillips/racket-inifile.git"))
- #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+ #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
        (name . "keyring")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring"))
- #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+ #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
        (name . "keyring-get-pass-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-get-pass-lib"))
- #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+ #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
        (name . "keyring-keychain-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-lib"))
- #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+ #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
        (name . "keyring-keychain-test")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-test"))
- #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+ #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
        (name . "keyring-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-lib"))
- #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+ #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
        (name . "keyring-secret-service-lib")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-secret-service-lib"))
- #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+ #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
        (name . "keyring-secretservice-test")
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-secretservice-test"))
- #hash((checksum . "ebc097b1d9e55f1695c4dae87473d804b2915ee8")
+ #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
        (name . "keyring-test")
        (source
         .
@@ -76,9 +76,14 @@
        (source
         .
         "https://github.com/samdphillips/racket-microparsec.git?path=microparsec-lib"))
- #hash((checksum . "10d3fe4977a9f835265b5c2d9d08a9ee4cfdd42a")
+ #hash((checksum . "97eb3745293c014dec9b5633f3d67b0a3e218655")
        (name . "raco-run")
-       (source . "https://github.com/samdphillips/raco-run.git"))
+       (source . "https://github.com/samdphillips/raco-run.git?path=raco-run"))
+ #hash((checksum . "97eb3745293c014dec9b5633f3d67b0a3e218655")
+       (name . "raco-run-cmd")
+       (source
+        .
+        "https://github.com/samdphillips/raco-run.git?path=raco-run-cmd"))
  #hash((checksum . "1e93d3632b78fb7324d1edba953ab3b206faecd9")
        (name . "raco-static-web")
        (source . "https://github.com/samdphillips/raco-static-web.git"))
