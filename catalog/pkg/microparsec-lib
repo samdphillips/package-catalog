@@ -1,4 +1,4 @@
-#hash((checksum . "aaafa0628a4e4328d4e151855550dde27a6cecc6")
+#hash((checksum . "f39cf6d7555febec8326ae30860b64a1ade6b1c9")
       (name . "microparsec-lib")
       (source
        .
