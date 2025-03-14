@@ -71,7 +71,7 @@
        (source
         .
         "https://github.com/samdphillips/racket-keyring.git?path=keyring-test"))
- #hash((checksum . "aaafa0628a4e4328d4e151855550dde27a6cecc6")
+ #hash((checksum . "f39cf6d7555febec8326ae30860b64a1ade6b1c9")
        (name . "microparsec-lib")
        (source
         .
@@ -95,12 +95,12 @@
  #hash((checksum . "7700912ceb9cff4e8f685f7b38e387e8c4744f2e")
        (name . "ruckus")
        (source . "https://github.com/samdphillips/ruckus.git"))
- #hash((checksum . "dd6484ebe58ea3a778cec81104cbf2694473870a")
+ #hash((checksum . "3bbfad7b99f54e1773f99c4db114bb362d6f8ef9")
        (name . "smalltalk-parser")
        (source
         .
         "https://github.com/samdphillips/racket-smalltalk.git?path=smalltalk-parser"))
- #hash((checksum . "dd6484ebe58ea3a778cec81104cbf2694473870a")
+ #hash((checksum . "3bbfad7b99f54e1773f99c4db114bb362d6f8ef9")
        (name . "smalltalk-reader")
        (source
         .
@@ -152,4 +152,16 @@
        (name . "token-bucket-lib")
        (source
         .
-        "https://github.com/samdphillips/racket-token-bucket.git?path=token-bucket-lib")))
+        "https://github.com/samdphillips/racket-token-bucket.git?path=token-bucket-lib"))
+ #hash((checksum . "92b2e12578b23e150ad3b7b864f341965588d334")
+       (name . "uke")
+       (source . "https://github.com/samdphillips/uke.git?path=uke"))
+ #hash((checksum . "92b2e12578b23e150ad3b7b864f341965588d334")
+       (name . "uke-extra-lib")
+       (source . "https://github.com/samdphillips/uke.git?path=uke-extra-lib"))
+ #hash((checksum . "92b2e12578b23e150ad3b7b864f341965588d334")
+       (name . "uke-lib")
+       (source . "https://github.com/samdphillips/uke.git?path=uke-lib"))
+ #hash((checksum . "92b2e12578b23e150ad3b7b864f341965588d334")
+       (name . "uke-machete")
+       (source . "https://github.com/samdphillips/uke.git?path=uke-machete")))

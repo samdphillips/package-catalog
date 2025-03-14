@@ -1,0 +1,3 @@
+#hash((checksum . "92b2e12578b23e150ad3b7b864f341965588d334")
+      (name . "uke-lib")
+      (source . "https://github.com/samdphillips/uke.git?path=uke-lib"))

@@ -30,4 +30,8 @@
  "stream-xml-test"
  "syncvar"
  "syncvar-lib"
- "token-bucket-lib")
+ "token-bucket-lib"
+ "uke"
+ "uke-extra-lib"
+ "uke-lib"
+ "uke-machete")
