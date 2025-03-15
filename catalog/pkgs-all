@@ -28,6 +28,9 @@
        (source
         .
         "https://github.com/samdphillips/boato.git?path=boato-sigv4-lib"))
+ #hash((checksum . "bee18bf3e181e6c97e4f6f59a3edccae9130cf34")
+       (name . "fancy-app")
+       (source . "https://github.com/samdphillips/fancy-app.git#no_docs"))
  #hash((checksum . "08e89eadb6e1bb0f660da8b34003b84dde5c6948")
        (name . "inifile")
        (source . "https://github.com/samdphillips/racket-inifile.git"))

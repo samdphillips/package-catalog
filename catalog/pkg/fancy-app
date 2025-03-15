@@ -1,0 +1,3 @@
+#hash((checksum . "bee18bf3e181e6c97e4f6f59a3edccae9130cf34")
+      (name . "fancy-app")
+      (source . "https://github.com/samdphillips/fancy-app.git#no_docs"))
