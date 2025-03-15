@@ -4,7 +4,6 @@
  "aws-credential-sts-lib"
  "aws-sts"
  "boato-sigv4-lib"
- "fancy-app"
  "inifile"
  "keyring"
  "keyring-get-pass-lib"
