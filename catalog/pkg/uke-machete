@@ -1,3 +1,3 @@
-#hash((checksum . "2a41bcb4dc82167a8739634a47abf28cc9411475")
+#hash((checksum . "21ee9322fc5b17461897dfb81bcf3412e7aba5a5")
       (name . "uke-machete")
       (source . "https://github.com/samdphillips/uke.git?path=uke-machete"))
