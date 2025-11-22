@@ -63,17 +63,18 @@
   (define packages
     (let* ([pkg-path (build-path catalog-dir "pkg")]
            [pkg-files (directory-list #:build? #t pkg-path)])
-      (for/list ([filename (in-list pkg-files)]
+      (for/hash ([filename (in-list pkg-files)]
                  #:when (file-exists? filename)
                  [pkg-data (in-value (read-pkg-file filename))]
                  #:when pkg-data)
-        (log-catalog-info "found package ~a" (hash-ref pkg-data 'name #f))
-        pkg-data)))
+        (define pkg-name (hash-ref pkg-data 'name #f))
+        (log-catalog-info "found package ~a" pkg-name)
+        (values pkg-name pkg-data))))
 
   (pretty-write-to-file #:exists 'replace
                         packages (build-path catalog-dir "pkgs-all"))
   (pretty-write-to-file #:exists 'replace
-                        (for/list ([pkg (in-list packages)])
-                          (hash-ref pkg 'name))
+                        (sort (hash-keys packages) string<?)
+                        #;(for/list ([pkg-name (in-hash-keys packages)]) pkg-name)
                         (build-path catalog-dir "pkgs")))
 
