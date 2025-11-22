@@ -1,167 +1,251 @@
-(#hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
-       (name . "aws-credential-key-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-key-lib"))
- #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
-       (name . "aws-credential-keyring-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-keyring-lib"))
- #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
-       (name . "aws-credential-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-lib"))
- #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
-       (name . "aws-credential-sts-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-sts-lib"))
- #hash((checksum . "15d0055563f14fc2687a04f270f36f4558c5031c")
-       (name . "aws-sts")
-       (source
-        .
-        "https://github.com/samdphillips/racket-aws-sts.git?path=aws-sts"))
- #hash((checksum . "9265d43a512af3de33cfd4eb57256210db8304a0")
-       (name . "boato-sigv4-lib")
-       (source
-        .
-        "https://github.com/samdphillips/boato.git?path=boato-sigv4-lib"))
- #hash((checksum . "08e89eadb6e1bb0f660da8b34003b84dde5c6948")
-       (name . "inifile")
-       (source . "https://github.com/samdphillips/racket-inifile.git"))
- #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
-       (name . "keyring")
-       (source
-        .
-        "https://github.com/samdphillips/racket-keyring.git?path=keyring"))
- #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
-       (name . "keyring-get-pass-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-keyring.git?path=keyring-get-pass-lib"))
- #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
-       (name . "keyring-keychain-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-lib"))
- #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
-       (name . "keyring-keychain-test")
-       (source
-        .
-        "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-test"))
- #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
-       (name . "keyring-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-keyring.git?path=keyring-lib"))
- #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
-       (name . "keyring-secret-service-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-keyring.git?path=keyring-secret-service-lib"))
- #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
-       (name . "keyring-secretservice-test")
-       (source
-        .
-        "https://github.com/samdphillips/racket-keyring.git?path=keyring-secretservice-test"))
- #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
-       (name . "keyring-test")
-       (source
-        .
-        "https://github.com/samdphillips/racket-keyring.git?path=keyring-test"))
- #hash((checksum . "f39cf6d7555febec8326ae30860b64a1ade6b1c9")
-       (name . "microparsec-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-microparsec.git?path=microparsec-lib"))
- #hash((checksum . "97eb3745293c014dec9b5633f3d67b0a3e218655")
-       (name . "raco-run")
-       (source . "https://github.com/samdphillips/raco-run.git?path=raco-run"))
- #hash((checksum . "97eb3745293c014dec9b5633f3d67b0a3e218655")
-       (name . "raco-run-cmd")
-       (source
-        .
-        "https://github.com/samdphillips/raco-run.git?path=raco-run-cmd"))
- #hash((checksum . "1e93d3632b78fb7324d1edba953ab3b206faecd9")
-       (name . "raco-static-web")
-       (source . "https://github.com/samdphillips/raco-static-web.git"))
- #hash((checksum . "cf3b785515cf413313ab9bd0294ebe4b852106b2")
-       (name . "rkshell-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-rkshell.git?path=rkshell-lib"))
- #hash((checksum . "7700912ceb9cff4e8f685f7b38e387e8c4744f2e")
-       (name . "ruckus")
-       (source . "https://github.com/samdphillips/ruckus.git"))
- #hash((checksum . "3bbfad7b99f54e1773f99c4db114bb362d6f8ef9")
-       (name . "smalltalk-parser")
-       (source
-        .
-        "https://github.com/samdphillips/racket-smalltalk.git?path=smalltalk-parser"))
- #hash((checksum . "3bbfad7b99f54e1773f99c4db114bb362d6f8ef9")
-       (name . "smalltalk-reader")
-       (source
-        .
-        "https://github.com/samdphillips/racket-smalltalk.git?path=smalltalk-reader"))
- #hash((checksum . "075ba66e829d06dcaf9356a19410f7aa1cded62a")
-       (name . "sparklines")
-       (source . "https://github.com/samdphillips/racket-sparklines.git"))
- #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
-       (name . "stream-json")
-       (source
-        .
-        "https://github.com/samdphillips/racket-stream-json.git?path=stream-json"))
- #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
-       (name . "stream-json-doc")
-       (source
-        .
-        "https://github.com/samdphillips/racket-stream-json.git?path=stream-json-doc"))
- #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
-       (name . "stream-json-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-stream-json.git?path=stream-json-lib"))
- #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
-       (name . "stream-json-test")
-       (source
-        .
-        "https://github.com/samdphillips/racket-stream-json.git?path=stream-json-test"))
- #hash((checksum . "459528b2f35e56696db24976c87c35fe854669be")
-       (name . "stream-xml-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-stream-xml.git?path=stream-xml-lib"))
- #hash((checksum . "459528b2f35e56696db24976c87c35fe854669be")
-       (name . "stream-xml-test")
-       (source
-        .
-        "https://github.com/samdphillips/racket-stream-xml.git?path=stream-xml-test"))
- #hash((checksum . "b7ddf4b78b2f2ced31b775a38163ede8d7dd76c6")
-       (name . "syncvar")
-       (source
-        .
-        "https://github.com/samdphillips/racket-syncvar.git?path=syncvar"))
- #hash((checksum . "b7ddf4b78b2f2ced31b775a38163ede8d7dd76c6")
-       (name . "syncvar-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-syncvar.git?path=syncvar-lib"))
- #hash((checksum . "5cda2f080da8c931e1e03c8331eed08e8aeb1475")
-       (name . "token-bucket-lib")
-       (source
-        .
-        "https://github.com/samdphillips/racket-token-bucket.git?path=token-bucket-lib"))
- #hash((checksum . "21ee9322fc5b17461897dfb81bcf3412e7aba5a5")
-       (name . "uke")
-       (source . "https://github.com/samdphillips/uke.git?path=uke"))
- #hash((checksum . "21ee9322fc5b17461897dfb81bcf3412e7aba5a5")
-       (name . "uke-extra-lib")
-       (source . "https://github.com/samdphillips/uke.git?path=uke-extra-lib"))
- #hash((checksum . "21ee9322fc5b17461897dfb81bcf3412e7aba5a5")
-       (name . "uke-lib")
-       (source . "https://github.com/samdphillips/uke.git?path=uke-lib"))
- #hash((checksum . "21ee9322fc5b17461897dfb81bcf3412e7aba5a5")
-       (name . "uke-machete")
-       (source . "https://github.com/samdphillips/uke.git?path=uke-machete")))
+#hash(("aws-credential-key-lib"
+       .
+       #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
+             (name . "aws-credential-key-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-key-lib")))
+      ("aws-credential-keyring-lib"
+       .
+       #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
+             (name . "aws-credential-keyring-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-keyring-lib")))
+      ("aws-credential-lib"
+       .
+       #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
+             (name . "aws-credential-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-lib")))
+      ("aws-credential-sts-lib"
+       .
+       #hash((checksum . "fe232e762323647046bbeb9766122f34becf17a4")
+             (name . "aws-credential-sts-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-aws-credential.git?path=aws-credential-sts-lib")))
+      ("aws-sts"
+       .
+       #hash((checksum . "15d0055563f14fc2687a04f270f36f4558c5031c")
+             (name . "aws-sts")
+             (source
+              .
+              "https://github.com/samdphillips/racket-aws-sts.git?path=aws-sts")))
+      ("boato-sigv4-lib"
+       .
+       #hash((checksum . "9265d43a512af3de33cfd4eb57256210db8304a0")
+             (name . "boato-sigv4-lib")
+             (source
+              .
+              "https://github.com/samdphillips/boato.git?path=boato-sigv4-lib")))
+      ("inifile"
+       .
+       #hash((checksum . "08e89eadb6e1bb0f660da8b34003b84dde5c6948")
+             (name . "inifile")
+             (source . "https://github.com/samdphillips/racket-inifile.git")))
+      ("keyring"
+       .
+       #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
+             (name . "keyring")
+             (source
+              .
+              "https://github.com/samdphillips/racket-keyring.git?path=keyring")))
+      ("keyring-get-pass-lib"
+       .
+       #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
+             (name . "keyring-get-pass-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-keyring.git?path=keyring-get-pass-lib")))
+      ("keyring-keychain-lib"
+       .
+       #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
+             (name . "keyring-keychain-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-lib")))
+      ("keyring-keychain-test"
+       .
+       #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
+             (name . "keyring-keychain-test")
+             (source
+              .
+              "https://github.com/samdphillips/racket-keyring.git?path=keyring-keychain-test")))
+      ("keyring-lib"
+       .
+       #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
+             (name . "keyring-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-keyring.git?path=keyring-lib")))
+      ("keyring-secret-service-lib"
+       .
+       #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
+             (name . "keyring-secret-service-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-keyring.git?path=keyring-secret-service-lib")))
+      ("keyring-secretservice-test"
+       .
+       #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
+             (name . "keyring-secretservice-test")
+             (source
+              .
+              "https://github.com/samdphillips/racket-keyring.git?path=keyring-secretservice-test")))
+      ("keyring-test"
+       .
+       #hash((checksum . "54d9360cdea2ffaa498d836165125c3f4786aabc")
+             (name . "keyring-test")
+             (source
+              .
+              "https://github.com/samdphillips/racket-keyring.git?path=keyring-test")))
+      ("microparsec-lib"
+       .
+       #hash((checksum . "f39cf6d7555febec8326ae30860b64a1ade6b1c9")
+             (name . "microparsec-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-microparsec.git?path=microparsec-lib")))
+      ("raco-run"
+       .
+       #hash((checksum . "eb92112830cc292e76573ed69464b04a22ac4f91")
+             (name . "raco-run")
+             (source
+              .
+              "https://github.com/samdphillips/raco-run.git?path=raco-run")))
+      ("raco-run-cmd"
+       .
+       #hash((checksum . "eb92112830cc292e76573ed69464b04a22ac4f91")
+             (name . "raco-run-cmd")
+             (source
+              .
+              "https://github.com/samdphillips/raco-run.git?path=raco-run-cmd")))
+      ("raco-static-web"
+       .
+       #hash((checksum . "1e93d3632b78fb7324d1edba953ab3b206faecd9")
+             (name . "raco-static-web")
+             (source . "https://github.com/samdphillips/raco-static-web.git")))
+      ("rkshell-lib"
+       .
+       #hash((checksum . "cf3b785515cf413313ab9bd0294ebe4b852106b2")
+             (name . "rkshell-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-rkshell.git?path=rkshell-lib")))
+      ("ruckus"
+       .
+       #hash((checksum . "7700912ceb9cff4e8f685f7b38e387e8c4744f2e")
+             (name . "ruckus")
+             (source . "https://github.com/samdphillips/ruckus.git")))
+      ("smalltalk-parser"
+       .
+       #hash((checksum . "3bbfad7b99f54e1773f99c4db114bb362d6f8ef9")
+             (name . "smalltalk-parser")
+             (source
+              .
+              "https://github.com/samdphillips/racket-smalltalk.git?path=smalltalk-parser")))
+      ("smalltalk-reader"
+       .
+       #hash((checksum . "3bbfad7b99f54e1773f99c4db114bb362d6f8ef9")
+             (name . "smalltalk-reader")
+             (source
+              .
+              "https://github.com/samdphillips/racket-smalltalk.git?path=smalltalk-reader")))
+      ("sparklines"
+       .
+       #hash((checksum . "075ba66e829d06dcaf9356a19410f7aa1cded62a")
+             (name . "sparklines")
+             (source
+              .
+              "https://github.com/samdphillips/racket-sparklines.git")))
+      ("stream-json"
+       .
+       #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
+             (name . "stream-json")
+             (source
+              .
+              "https://github.com/samdphillips/racket-stream-json.git?path=stream-json")))
+      ("stream-json-doc"
+       .
+       #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
+             (name . "stream-json-doc")
+             (source
+              .
+              "https://github.com/samdphillips/racket-stream-json.git?path=stream-json-doc")))
+      ("stream-json-lib"
+       .
+       #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
+             (name . "stream-json-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-stream-json.git?path=stream-json-lib")))
+      ("stream-json-test"
+       .
+       #hash((checksum . "3c12ad1c0cc68bfb34cbf82b56774e099aca9321")
+             (name . "stream-json-test")
+             (source
+              .
+              "https://github.com/samdphillips/racket-stream-json.git?path=stream-json-test")))
+      ("stream-xml-lib"
+       .
+       #hash((checksum . "459528b2f35e56696db24976c87c35fe854669be")
+             (name . "stream-xml-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-stream-xml.git?path=stream-xml-lib")))
+      ("stream-xml-test"
+       .
+       #hash((checksum . "459528b2f35e56696db24976c87c35fe854669be")
+             (name . "stream-xml-test")
+             (source
+              .
+              "https://github.com/samdphillips/racket-stream-xml.git?path=stream-xml-test")))
+      ("syncvar"
+       .
+       #hash((checksum . "b7ddf4b78b2f2ced31b775a38163ede8d7dd76c6")
+             (name . "syncvar")
+             (source
+              .
+              "https://github.com/samdphillips/racket-syncvar.git?path=syncvar")))
+      ("syncvar-lib"
+       .
+       #hash((checksum . "b7ddf4b78b2f2ced31b775a38163ede8d7dd76c6")
+             (name . "syncvar-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-syncvar.git?path=syncvar-lib")))
+      ("token-bucket-lib"
+       .
+       #hash((checksum . "5cda2f080da8c931e1e03c8331eed08e8aeb1475")
+             (name . "token-bucket-lib")
+             (source
+              .
+              "https://github.com/samdphillips/racket-token-bucket.git?path=token-bucket-lib")))
+      ("uke"
+       .
+       #hash((checksum . "028aef63c6380c538f98b95f53c65e2b35a100ae")
+             (name . "uke")
+             (source . "https://github.com/samdphillips/uke.git?path=uke")))
+      ("uke-extra-lib"
+       .
+       #hash((checksum . "028aef63c6380c538f98b95f53c65e2b35a100ae")
+             (name . "uke-extra-lib")
+             (source
+              .
+              "https://github.com/samdphillips/uke.git?path=uke-extra-lib")))
+      ("uke-lib"
+       .
+       #hash((checksum . "028aef63c6380c538f98b95f53c65e2b35a100ae")
+             (name . "uke-lib")
+             (source
+              .
+              "https://github.com/samdphillips/uke.git?path=uke-lib")))
+      ("uke-machete"
+       .
+       #hash((checksum . "028aef63c6380c538f98b95f53c65e2b35a100ae")
+             (name . "uke-machete")
+             (source
+              .
+              "https://github.com/samdphillips/uke.git?path=uke-machete"))))
